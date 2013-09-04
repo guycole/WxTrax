@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- default portrait mode -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:background="#000000"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  
+  <TextView style="@style/LabelView01.Default"
+    android:text="@string/label_station"/>
+    
+  <TextView style="@style/ContentView01.Default"
+    android:id="@+id/label_station01"
+    android:text="@string/label_default"/>
+    
+  <TextView style="@style/LabelView01.Default"
+    android:text="@string/label_timestamp"/>
+    
+  <TextView style="@style/ContentView01.Default"
+    android:id="@+id/label_timestamp01"
+    android:text="@string/label_default"/>
+    
+  <TextView style="@style/LabelView01.Default"
+    android:text="@string/label_weather"/>
+    
+  <TextView style="@style/ContentView01.Default"
+    android:id="@+id/label_weather01"
+    android:text="@string/label_default"/>
+
+  <TextView style="@style/LabelView01.Default"
+    android:text="@string/label_temperature"/>
+    
+  <TextView style="@style/ContentView01.Default"
+    android:id="@+id/label_temperature01"
+    android:text="@string/label_default"/>
+
+  <TextView style="@style/LabelView01.Default"
+    android:text="@string/label_visibility"/>
+    
+  <TextView style="@style/ContentView01.Default"
+    android:id="@+id/label_visibility01"
+    android:text="@string/label_default"/>
+    
+  <TextView style="@style/LabelView01.Default"
+    android:text="@string/label_pressure"/>
+    
+  <TextView style="@style/ContentView01.Default"
+    android:id="@+id/label_pressure01"
+    android:text="@string/label_default"/>
+     
+  <TextView style="@style/LabelView01.Default"
+    android:text="@string/label_wind"/>
+    
+  <TextView style="@style/ContentView01.Default"
+    android:id="@+id/label_wind01"
+    android:text="@string/label_default"/>
+</LinearLayout><!-- From: file:/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/src/main/res/layout/fragment_favorite.xml -->

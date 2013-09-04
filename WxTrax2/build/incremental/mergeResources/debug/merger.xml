@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/src/main/res" >
+            <file
+                name="appwidget_box"
+                path="/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/src/main/res/drawable/appwidget_box.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="map_marker"
+                path="/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/src/main/res/drawable/map_marker.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/src/main/res/drawable-hdpi/ic_launcher.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/src/main/res/drawable-ldpi/ic_launcher.png"
+                qualifiers="ldpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/src/main/res/drawable-mdpi/ic_launcher.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/src/main/res/drawable-xhdpi/ic_launcher.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/src/main/res/drawable-xxhdpi/ic_launcher.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                name="activity_main"
+                path="/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/src/main/res/layout/activity_main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_menu"
+                path="/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/src/main/res/layout/activity_menu.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_new_station"
+                path="/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/src/main/res/layout/activity_new_station.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="dialog_new_station"
+                path="/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/src/main/res/layout/dialog_new_station.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_about"
+                path="/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/src/main/res/layout/fragment_about.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_favorite"
+                path="/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/src/main/res/layout/fragment_favorite.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_observation_list"
+                path="/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/src/main/res/layout/fragment_observation_list.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_splash"
+                path="/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/src/main/res/layout/fragment_splash.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_station_list"
+                path="/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/src/main/res/layout/fragment_station_list.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="row_observation"
+                path="/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/src/main/res/layout/row_observation.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="row_station"
+                path="/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/src/main/res/layout/row_station.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="temperature_widget"
+                path="/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/src/main/res/layout/temperature_widget.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_main"
+                path="/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/src/main/res/layout-large/activity_main.xml"
+                qualifiers="large"
+                type="layout" />
+            <file
+                name="activity_main"
+                path="/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/src/main/res/layout-large-land/activity_main.xml"
+                qualifiers="large-land"
+                type="layout" />
+            <file
+                name="main"
+                path="/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/src/main/res/menu/main.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="station_list_menu"
+                path="/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/src/main/res/menu/station_list_menu.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="streak"
+                path="/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/src/main/res/raw/streak.wav"
+                qualifiers=""
+                type="raw" />
+            <file
+                path="/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/src/main/res/values/arrays.xml"
+                qualifiers="" >
+                <string-array name="poll_option" >
+                    <item>
+2 Minutes
+                    </item>
+                    <item>
+10 Minutes
+                    </item>
+                    <item>
+20 Minutes
+                    </item>
+                    <item>
+30 Minutes
+                    </item>
+                    <item>
+40 Minutes
+                    </item>
+                    <item>
+50 Minutes
+                    </item>
+                    <item>
+60 Minutes
+                    </item>
+                </string-array>
+                <string-array name="poll_option_values" >
+                    <item>
+2
+                    </item>
+                    <item>
+10
+                    </item>
+                    <item>
+20
+                    </item>
+                    <item>
+30
+                    </item>
+                    <item>
+40
+                    </item>
+                    <item>
+50
+                    </item>
+                    <item>
+60
+                    </item>
+                </string-array>
+            </file>
+            <file
+                path="/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/src/main/res/values/colors.xml"
+                qualifiers="" >
+                <color name="brown" >#a62a2a
+                </color>
+                <color name="green" >#008000
+                </color>
+                <color name="blue" >#0000ff
+                </color>
+                <color name="white" >#ffffff
+                </color>
+                <color name="black" >#000000
+                </color>
+                <color name="red" >#ff0000
+                </color>
+                <color name="gray" >#808080
+                </color>
+                <color name="violet" >#4f2f4f
+                </color>
+                <color name="orange" >#ff5500
+                </color>
+                <color name="yellow" >#ffff00
+                </color>
+            </file>
+            <file
+                path="/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/src/main/res/values/dimens.xml"
+                qualifiers="" >
+                <dimen name="activity_horizontal_margin" >16dp
+                </dimen>
+                <dimen name="activity_vertical_margin" >16dp
+                </dimen>
+            </file>
+            <file
+                path="/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/src/main/res/values/strings.xml"
+                qualifiers="" >
+                <string name="station_menu_add" >Add Station
+                </string>
+                <string name="menu_application_bar_station_list" >Stations
+                </string>
+                <string name="label_map" >Google Map
+                </string>
+                <string name="main_menu_about" >About
+                </string>
+                <string name="station_menu_favorite" >Favorite Station
+                </string>
+                <string name="main_menu_preference" >Preference
+                </string>
+                <string name="button_net_test1" >Single Station
+                </string>
+                <string name="button_net_test2" >All Stations
+                </string>
+                <string name="toast_new_station_success" >New Station Success
+                </string>
+                <string name="alert_delete_yes" >Yes
+                </string>
+                <string name="label_visibility" >Visibility
+                </string>
+                <string name="label_dev_hello" >Development
+                </string>
+                <string name="label_station" >Weather Station
+                </string>
+                <string name="activity_label_about" >About
+                </string>
+                <string name="preference_poll_dialog" >Poll Values
+                </string>
+                <string name="dialog_delete_station_message" >Are You Sure?
+                </string>
+                <string name="main_menu_add_station" >Add Station
+                </string>
+                <string name="error_unknown_station" >Unknown Station
+                </string>
+                <string name="dialog_save_no" >Cancel
+                </string>
+                <string name="error_duplicate_station" >Duplicate Station
+                </string>
+                <string name="label_station_hello" >Weather Stations
+                </string>
+                <string name="main_menu_map" >Map
+                </string>
+                <string name="dialog_save_yes" >Save
+                </string>
+                <string name="label_station_add_hello" >Add New Weather Station
+                </string>
+                <string name="activity_label_weather" >Weather
+                </string>
+                <string name="main_menu_station" >Station
+                </string>
+                <string name="menu_application_bar_splash" >Splash
+                </string>
+                <string name="label_pressure" >Pressure
+                </string>
+                <string name="preference_poll" >Poll Interval
+                </string>
+                <string name="preference_audio" >Enable Audio
+                </string>
+                <string name="button_cancel" >Cancel
+                </string>
+                <string name="preference_poll_summary" >Minutes Between Refresh
+                </string>
+                <string name="label_timestamp" >Time
+                </string>
+                <string name="activity_label_map" >Map
+                </string>
+                <string name="station_menu_edit" >Edit Station
+                </string>
+                <string name="activity_label_station_edit" >Station Edit
+                </string>
+                <string name="hello" >Hello World, MainActivity!
+                </string>
+                <string name="alert_delete_no" >No
+                </string>
+                <string name="dialog_add_station_message" >Add New Station
+                </string>
+                <string name="label_default" >Default
+                </string>
+                <string name="station_menu_delete" >Delete Station
+                </string>
+                <string name="label_weather" >Weather
+                </string>
+                <string name="preference_audio_dialog" >Audio Cue
+                </string>
+                <string name="label_temperature" >Temperature
+                </string>
+                <string name="activity_label_prefer" >Prefer
+                </string>
+                <string name="menu_application_bar_map" >Map
+                </string>
+                <string name="preference_audio_summary" >Check Enable Audio Cue
+                </string>
+                <string name="label_weather_hello" >Collected Weather
+                </string>
+                <string name="preference_title02" >Audio
+                </string>
+                <string name="preference_title01" >Network
+                </string>
+                <string name="label_wind" >Wind
+                </string>
+                <string name="label_about_hello" >About
+                </string>
+                <string name="label_no_rows" >No Rows
+                </string>
+                <string name="activity_label_station" >Station
+                </string>
+                <string name="app_name" >WxTrax
+                </string>
+                <string name="button_save" >Save
+                </string>
+                <string name="dialog_add_station_title" >Add New Station
+                </string>
+                <string name="dialog_delete_station_title" >Delete Station
+                </string>
+            </file>
+            <file
+                path="/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/src/main/res/values/styles.xml"
+                qualifiers="" >
+
+                <style name="LabelView01.Default" >
+                    <item name="android:textSize">
+22sp
+                    </item>
+                </style>
+
+                <style name="LabelView01.Large" >
+                    <item name="android:textSize">
+45sp
+                    </item>
+                </style>
+
+                <style name="WeatherRow01.Default" >
+                    <item name="android:textSize">
+16sp
+                    </item>
+                </style>
+
+                <style
+                    name="WxTheme"
+                    parent="BaseTheme" />
+
+                <style
+                    name="BaseTheme"
+                    parent="android:Theme" />
+
+                <style name="WeatherRow01.Large" >
+                    <item name="android:textSize">
+45sp
+                    </item>
+                </style>
+
+                <style name="WidgetBanner01" >
+                    <item name="android:gravity">
+center
+                    </item>
+                    <item name="android:textColor">
+#fed600
+                    </item>
+                    <item name="android:textStyle">
+bold
+                    </item>
+                    <item name="android:layout_height">
+wrap_content
+                    </item>
+                    <item name="android:layout_width">
+fill_parent
+                    </item>
+                </style>
+
+                <style name="ContentView01.Large" >
+                    <item name="android:textSize">
+45sp
+                    </item>
+                </style>
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Light" >
+
+                    <!--
+      Theme customizations available in newer API levels can go in res/values-vXX/styles.xml,
+      while customizations related to backward-compatibility can go here.
+                    -->
+                </style>
+
+                <style name="WidgetContent01" >
+                    <item name="android:gravity">
+center
+                    </item>
+                    <item name="android:textColor">
+#fed600
+                    </item>
+                    <item name="android:textStyle">
+bold
+                    </item>
+                    <item name="android:layout_height">
+wrap_content
+                    </item>
+                    <item name="android:layout_width">
+fill_parent
+                    </item>
+                </style>
+
+                <style name="WidgetContent01.Default" >
+                    <item name="android:layout_marginTop">
+10px
+                    </item>
+                    <item name="android:textSize">
+20sp
+                    </item>
+                </style>
+
+                <style name="ContentView01" >
+                    <item name="android:textColor">
+#0000ff
+                    </item>
+                    <item name="android:textStyle">
+bold
+                    </item>
+                    <item name="android:typeface">
+sans
+                    </item>
+                    <item name="android:layout_height">
+wrap_content
+                    </item>
+                    <item name="android:layout_width">
+fill_parent
+                    </item>
+                </style>
+
+                <style name="WidgetBanner01.Default" >
+                    <item name="android:layout_marginTop">
+10px
+                    </item>
+                    <item name="android:textSize">
+18sp
+                    </item>
+                </style>
+
+                <style name="ContentView01.Default" >
+                    <item name="android:textSize">
+18sp
+                    </item>
+                </style>
+
+                <style name="LabelView01" >
+                    <item name="android:textColor">
+#ff0000
+                    </item>
+                    <item name="android:textStyle">
+bold
+                    </item>
+                    <item name="android:typeface">
+sans
+                    </item>
+                    <item name="android:layout_height">
+wrap_content
+                    </item>
+                    <item name="android:layout_width">
+fill_parent
+                    </item>
+                </style>
+
+                <style name="WeatherRow01" >
+                    <item name="android:textStyle">
+bold
+                    </item>
+                    <item name="android:layout_height">
+wrap_content
+                    </item>
+                    <item name="android:layout_width">
+fill_parent
+                    </item>
+                </style>
+
+                <style
+                    name="AppTheme"
+                    parent="AppBaseTheme" >
+
+                    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+                </style>
+            </file>
+            <file
+                path="/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/src/main/res/values-sw720dp-land/dimens.xml"
+                qualifiers="sw720dp-land" >
+                <dimen name="activity_horizontal_margin" >128dp
+                </dimen>
+            </file>
+            <file
+                path="/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/src/main/res/values-v11/styles.xml"
+                qualifiers="v11" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light" >
+
+                    <!-- API 11 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                path="/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/src/main/res/values-v14/styles.xml"
+                qualifiers="v14" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light.DarkActionBar" >
+
+                    <!-- API 14 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                name="prefer"
+                path="/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/src/main/res/xml/prefer.xml"
+                qualifiers=""
+                type="xml" />
+            <file
+                name="settings"
+                path="/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/src/main/res/xml/settings.xml"
+                qualifiers=""
+                type="xml" />
+            <file
+                name="temperature_provider"
+                path="/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/src/main/res/xml/temperature_provider.xml"
+                qualifiers=""
+                type="xml" />
+        </source>
+        <source path="/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/build/res/rs/debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/src/debug/res" />
+    </dataSet>
+
+</merger>
