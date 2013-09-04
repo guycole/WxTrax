@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+  <!-- ActionBar/ActionItem -->
+
+  <item android:id="@+id/menu_about"
+    android:orderInCategory="100"
+    android:showAsAction="never"
+    android:title="@string/main_menu_about"/>
+
+  <item android:id="@+id/menu_add_station"
+    android:orderInCategory="100"
+    android:showAsAction="never"
+    android:title="@string/main_menu_add_station"/>
+
+  <item android:id="@+id/menu_preference"
+    android:orderInCategory="100"
+    android:showAsAction="never"
+    android:title="@string/main_menu_preference"/>
+</menu>
