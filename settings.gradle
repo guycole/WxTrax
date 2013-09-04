@@ -1,0 +1,1 @@
+include ':WxTrax2', ':com.digiburo.killme', ':com.digiburo.example.wxtrax.lib'
