@@ -21,7 +21,3 @@ android {
         targetSdkVersion 8
     }
 }
-
-dependencies {
-    compile 'com.android.support:support-v4:18.0.0'
-}
