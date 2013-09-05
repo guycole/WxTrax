@@ -8,7 +8,7 @@ package com.digiburo.example.wxtrax.lib.utility;
 public class Constants {
   
   //flag development or production
-  public static final boolean DEBUG_APPLICATION_MODE = true;
+  public static final boolean DEBUG_APPLICATION_MODE = false;
   
   //
   public static final String AUTHORITY = "com.digiburo.example.wxtrax.content.DataBaseProvider";
@@ -33,7 +33,7 @@ public class Constants {
   public static final String DB_DEFAULT_WIND = "WIND";
   
   // user preference defaults
-  public static final long DEFAULT_POLL = 300 * 1000L;
+  public static final long DEFAULT_POLL = 30L;
   public static final long DEFAULT_STATION_ID = -1;
   
   // national weather service URL
