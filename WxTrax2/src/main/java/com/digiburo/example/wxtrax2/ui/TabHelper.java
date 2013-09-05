@@ -5,7 +5,9 @@ import android.app.Fragment;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 
+import com.digiburo.example.wxtrax.lib.utility.AudioHelper;
 import com.digiburo.example.wxtrax.lib.utility.LogFacade;
+import com.digiburo.example.wxtrax.lib.utility.UserPreferenceHelper;
 import com.digiburo.example.wxtrax2.R;
 
 /**
@@ -44,6 +46,12 @@ public class TabHelper implements ActionBar.TabListener, FragmentManager.OnBackS
       fragmentTransaction.add(R.id.layoutFragment01, stationListFragment, TAG_STATION_LIST);
     } else {
       throw new IllegalArgumentException("unknown tab:" + tab.getTag());
+    }
+
+    UserPreferenceHelper uph = new UserPreferenceHelper();
+    if (uph.isAudioCue(mainActivity)) {
+      AudioHelper audioHelper = new AudioHelper();
+      audioHelper.playStreak(R.raw.streak, mainActivity);
     }
 
     LogFacade.exit(LOG_TAG, "onTabSelected:" + tab.getTag());

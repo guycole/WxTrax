@@ -2,4 +2,4 @@
 
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >
   <item android:id="@+id/menu_station_add" android:title="station add" android:showAsAction="ifRoom|withText" />
-</menu><!-- From: file:/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/src/main/res/menu/station_list_menu.xml -->
+</menu><!-- From: file:/Users/guycole/AndroidStudioProjects/WxTrax/WxTrax2/src/main/res/menu/station_list_menu.xml -->

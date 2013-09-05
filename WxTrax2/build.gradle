@@ -24,4 +24,5 @@ android {
 
 dependencies {
     compile 'com.google.android.gms:play-services:3.1.36'
+    compile project(":WxTraxLib")
 }

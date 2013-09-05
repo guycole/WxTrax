@@ -30,4 +30,4 @@
     android:id="@+id/row_wind01"
     android:text="@string/label_default"/>
 </LinearLayout>
-<!-- From: file:/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/src/main/res/layout/row_observation.xml -->
+<!-- From: file:/Users/guycole/AndroidStudioProjects/WxTrax/WxTrax2/src/main/res/layout/row_observation.xml -->

@@ -9,7 +9,7 @@ package com.digiburo.example.wxtrax2;
 
 public final class R {
     public static final class array {
-        /**  From: file:/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/src/main/res/values/arrays.xml 
+        /**  From: file:/Users/guycole/AndroidStudioProjects/WxTrax/WxTrax2/src/main/res/values/arrays.xml 
          */
         public static final int poll_option=0x7f060000;
         public static final int poll_option_values=0x7f060001;
@@ -135,12 +135,12 @@ containing a value of this type.
         public static final int zOrderOnTop=0x7f01000d;
     }
     public static final class color {
-        /**  From: file:/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/src/main/res/values/colors.xml 
+        /**  From: file:/Users/guycole/AndroidStudioProjects/WxTrax/WxTrax2/src/main/res/values/colors.xml 
          */
         public static final int black=0x7f070000;
         public static final int blue=0x7f070001;
         public static final int brown=0x7f070002;
-        /**  From: file:/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values/colors.xml 
+        /**  From: file:/Users/guycole/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values/colors.xml 
          */
         public static final int common_action_bar_splitter=0x7f070003;
         public static final int common_signin_btn_dark_text_default=0x7f070004;
@@ -154,7 +154,7 @@ containing a value of this type.
         public static final int common_signin_btn_light_text_pressed=0x7f07000c;
         public static final int common_signin_btn_text_dark=0x7f070014;
         public static final int common_signin_btn_text_light=0x7f070015;
-        /**  From: file:/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/src/main/res/values/colors.xml 
+        /**  From: file:/Users/guycole/AndroidStudioProjects/WxTrax/WxTrax2/src/main/res/values/colors.xml 
          */
         public static final int gray=0x7f07000d;
         public static final int green=0x7f07000e;
@@ -165,8 +165,8 @@ containing a value of this type.
         public static final int yellow=0x7f070013;
     }
     public static final class dimen {
-        /**  From: file:/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/src/main/res/values/dimens.xml 
- From: file:/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/src/main/res/values-sw720dp-land/dimens.xml 
+        /**  From: file:/Users/guycole/AndroidStudioProjects/WxTrax/WxTrax2/src/main/res/values/dimens.xml 
+ From: file:/Users/guycole/AndroidStudioProjects/WxTrax/WxTrax2/src/main/res/values-sw720dp-land/dimens.xml 
          */
         public static final int activity_horizontal_margin=0x7f090000;
         public static final int activity_vertical_margin=0x7f090001;
@@ -260,7 +260,7 @@ containing a value of this type.
         public static final int streak=0x7f050000;
     }
     public static final class string {
-        /**  From: file:/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/src/main/res/values/strings.xml 
+        /**  From: file:/Users/guycole/AndroidStudioProjects/WxTrax/WxTrax2/src/main/res/values/strings.xml 
          */
         public static final int activity_label_about=0x7f0a0000;
         public static final int activity_label_map=0x7f0a0001;
@@ -271,67 +271,67 @@ containing a value of this type.
         public static final int alert_delete_no=0x7f0a0006;
         public static final int alert_delete_yes=0x7f0a0007;
         public static final int app_name=0x7f0a0008;
-        /**  From: file:/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values/strings.xml 
+        /**  From: file:/Users/guycole/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values/strings.xml 
          */
         public static final int auth_client_availability_notification_title=0x7f0a0009;
         public static final int auth_client_play_services_err_notification_msg=0x7f0a000a;
         public static final int auth_client_requested_by_msg=0x7f0a000b;
-        /**  From: file:/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/src/main/res/values/strings.xml 
+        /**  From: file:/Users/guycole/AndroidStudioProjects/WxTrax/WxTrax2/src/main/res/values/strings.xml 
          */
         public static final int button_cancel=0x7f0a000c;
         public static final int button_net_test1=0x7f0a000d;
         public static final int button_net_test2=0x7f0a000e;
         public static final int button_save=0x7f0a000f;
-        /**  From: file:/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values/strings.xml 
- From: file:/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-af/strings.xml 
- From: file:/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-am/strings.xml 
- From: file:/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-ar/strings.xml 
- From: file:/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-be/strings.xml 
- From: file:/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-bg/strings.xml 
- From: file:/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-ca/strings.xml 
- From: file:/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-cs/strings.xml 
- From: file:/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-da/strings.xml 
- From: file:/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-de/strings.xml 
- From: file:/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-el/strings.xml 
- From: file:/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-en-rGB/strings.xml 
- From: file:/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-es/strings.xml 
- From: file:/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-es-rUS/strings.xml 
- From: file:/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-et/strings.xml 
- From: file:/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-fa/strings.xml 
- From: file:/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-fi/strings.xml 
- From: file:/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-fr/strings.xml 
- From: file:/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-hi/strings.xml 
- From: file:/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-hr/strings.xml 
- From: file:/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-hu/strings.xml 
- From: file:/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-in/strings.xml 
- From: file:/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-it/strings.xml 
- From: file:/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-iw/strings.xml 
- From: file:/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-ja/strings.xml 
- From: file:/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-ko/strings.xml 
- From: file:/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-lt/strings.xml 
- From: file:/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-lv/strings.xml 
- From: file:/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-ms/strings.xml 
- From: file:/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-nb/strings.xml 
- From: file:/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-nl/strings.xml 
- From: file:/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-pl/strings.xml 
- From: file:/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-pt/strings.xml 
- From: file:/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-pt-rBR/strings.xml 
- From: file:/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-pt-rPT/strings.xml 
- From: file:/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-ro/strings.xml 
- From: file:/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-ru/strings.xml 
- From: file:/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-sk/strings.xml 
- From: file:/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-sl/strings.xml 
- From: file:/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-sr/strings.xml 
- From: file:/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-sv/strings.xml 
- From: file:/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-sw/strings.xml 
- From: file:/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-th/strings.xml 
- From: file:/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-tl/strings.xml 
- From: file:/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-tr/strings.xml 
- From: file:/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-uk/strings.xml 
- From: file:/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-vi/strings.xml 
- From: file:/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-zh-rCN/strings.xml 
- From: file:/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-zh-rTW/strings.xml 
- From: file:/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-zu/strings.xml 
+        /**  From: file:/Users/guycole/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values/strings.xml 
+ From: file:/Users/guycole/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-af/strings.xml 
+ From: file:/Users/guycole/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-am/strings.xml 
+ From: file:/Users/guycole/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-ar/strings.xml 
+ From: file:/Users/guycole/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-be/strings.xml 
+ From: file:/Users/guycole/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-bg/strings.xml 
+ From: file:/Users/guycole/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-ca/strings.xml 
+ From: file:/Users/guycole/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-cs/strings.xml 
+ From: file:/Users/guycole/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-da/strings.xml 
+ From: file:/Users/guycole/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-de/strings.xml 
+ From: file:/Users/guycole/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-el/strings.xml 
+ From: file:/Users/guycole/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-en-rGB/strings.xml 
+ From: file:/Users/guycole/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-es/strings.xml 
+ From: file:/Users/guycole/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-es-rUS/strings.xml 
+ From: file:/Users/guycole/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-et/strings.xml 
+ From: file:/Users/guycole/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-fa/strings.xml 
+ From: file:/Users/guycole/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-fi/strings.xml 
+ From: file:/Users/guycole/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-fr/strings.xml 
+ From: file:/Users/guycole/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-hi/strings.xml 
+ From: file:/Users/guycole/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-hr/strings.xml 
+ From: file:/Users/guycole/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-hu/strings.xml 
+ From: file:/Users/guycole/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-in/strings.xml 
+ From: file:/Users/guycole/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-it/strings.xml 
+ From: file:/Users/guycole/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-iw/strings.xml 
+ From: file:/Users/guycole/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-ja/strings.xml 
+ From: file:/Users/guycole/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-ko/strings.xml 
+ From: file:/Users/guycole/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-lt/strings.xml 
+ From: file:/Users/guycole/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-lv/strings.xml 
+ From: file:/Users/guycole/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-ms/strings.xml 
+ From: file:/Users/guycole/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-nb/strings.xml 
+ From: file:/Users/guycole/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-nl/strings.xml 
+ From: file:/Users/guycole/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-pl/strings.xml 
+ From: file:/Users/guycole/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-pt/strings.xml 
+ From: file:/Users/guycole/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-pt-rBR/strings.xml 
+ From: file:/Users/guycole/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-pt-rPT/strings.xml 
+ From: file:/Users/guycole/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-ro/strings.xml 
+ From: file:/Users/guycole/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-ru/strings.xml 
+ From: file:/Users/guycole/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-sk/strings.xml 
+ From: file:/Users/guycole/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-sl/strings.xml 
+ From: file:/Users/guycole/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-sr/strings.xml 
+ From: file:/Users/guycole/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-sv/strings.xml 
+ From: file:/Users/guycole/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-sw/strings.xml 
+ From: file:/Users/guycole/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-th/strings.xml 
+ From: file:/Users/guycole/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-tl/strings.xml 
+ From: file:/Users/guycole/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-tr/strings.xml 
+ From: file:/Users/guycole/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-uk/strings.xml 
+ From: file:/Users/guycole/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-vi/strings.xml 
+ From: file:/Users/guycole/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-zh-rCN/strings.xml 
+ From: file:/Users/guycole/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-zh-rTW/strings.xml 
+ From: file:/Users/guycole/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values-zu/strings.xml 
          */
         public static final int common_google_play_services_enable_button=0x7f0a0010;
         public static final int common_google_play_services_enable_text=0x7f0a0011;
@@ -348,7 +348,7 @@ containing a value of this type.
         public static final int common_google_play_services_update_title=0x7f0a001c;
         public static final int common_signin_button_text=0x7f0a001d;
         public static final int common_signin_button_text_long=0x7f0a001e;
-        /**  From: file:/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/src/main/res/values/strings.xml 
+        /**  From: file:/Users/guycole/AndroidStudioProjects/WxTrax/WxTrax2/src/main/res/values/strings.xml 
          */
         public static final int dialog_add_station_message=0x7f0a001f;
         public static final int dialog_add_station_title=0x7f0a0020;
@@ -374,12 +374,12 @@ containing a value of this type.
         public static final int label_weather=0x7f0a0034;
         public static final int label_weather_hello=0x7f0a0035;
         public static final int label_wind=0x7f0a0036;
-        /**  From: file:/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values/strings.xml 
+        /**  From: file:/Users/guycole/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values/strings.xml 
          */
         public static final int location_client_ulr_inactive_age_under_13=0x7f0a0037;
         public static final int location_client_ulr_inactive_age_unknown=0x7f0a0038;
         public static final int location_client_ulr_inactive_unknown_restriction=0x7f0a0039;
-        /**  From: file:/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/src/main/res/values/strings.xml 
+        /**  From: file:/Users/guycole/AndroidStudioProjects/WxTrax/WxTrax2/src/main/res/values/strings.xml 
          */
         public static final int main_menu_about=0x7f0a003a;
         public static final int main_menu_add_station=0x7f0a003b;
@@ -404,14 +404,14 @@ containing a value of this type.
         public static final int toast_new_station_success=0x7f0a004e;
     }
     public static final class style {
-        /**  From: file:/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/src/main/res/values/styles.xml 
+        /**  From: file:/Users/guycole/AndroidStudioProjects/WxTrax/WxTrax2/src/main/res/values/styles.xml 
 
       Theme customizations available in newer API levels can go in res/values-vXX/styles.xml,
       while customizations related to backward-compatibility can go here.
         
- From: file:/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/src/main/res/values-v11/styles.xml 
+ From: file:/Users/guycole/AndroidStudioProjects/WxTrax/WxTrax2/src/main/res/values-v11/styles.xml 
  API 11 theme customizations can go here. 
- From: file:/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/src/main/res/values-v14/styles.xml 
+ From: file:/Users/guycole/AndroidStudioProjects/WxTrax/WxTrax2/src/main/res/values-v14/styles.xml 
  API 14 theme customizations can go here. 
          */
         public static final int AppBaseTheme=0x7f0b0000;
@@ -440,7 +440,7 @@ containing a value of this type.
         public static final int temperature_provider=0x7f040002;
     }
     public static final class styleable {
-        /**  From: file:/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values/maps_attrs.xml 
+        /**  From: file:/Users/guycole/AndroidStudioProjects/WxTrax/WxTrax2/build/exploded-bundles/ComGoogleAndroidGmsPlayServices3136.aar/res/values/maps_attrs.xml 
            <p>Includes the following attributes:</p>
            <table>
            <colgroup align="left" />

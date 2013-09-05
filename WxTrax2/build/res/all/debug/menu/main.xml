@@ -16,4 +16,4 @@
     android:orderInCategory="100"
     android:showAsAction="never"
     android:title="@string/main_menu_preference"/>
-</menu><!-- From: file:/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/src/main/res/menu/main.xml -->
+</menu><!-- From: file:/Users/guycole/AndroidStudioProjects/WxTrax/WxTrax2/src/main/res/menu/main.xml -->

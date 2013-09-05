@@ -52,7 +52,7 @@ public class UserPreferenceHelper {
   /**
    * define poll time
    * @param context
-   * @param arg next poll time in milliseconds
+   * @param arg next poll time in minutes
    */
   public void setPollInterval(Context context, long arg) {
     SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(context);
@@ -88,7 +88,7 @@ public class UserPreferenceHelper {
    * @param context
    * @return
    */
-  public boolean getAudioCue(Context context) {
+  public boolean isAudioCue(Context context) {
     SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(context);
     return(sp.getBoolean(USER_PREF_KEY_AUDIO_ENABLE, true));
   }

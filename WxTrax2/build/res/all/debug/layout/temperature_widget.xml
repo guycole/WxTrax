@@ -14,4 +14,4 @@
   <TextView style="@style/WidgetContent01.Default"
     android:id="@+id/widget_temperature01"
     android:text="123"/>
-</LinearLayout><!-- From: file:/Users/gsc/AndroidStudioProjects/WxTrax/WxTrax2/src/main/res/layout/temperature_widget.xml -->
+</LinearLayout><!-- From: file:/Users/guycole/AndroidStudioProjects/WxTrax/WxTrax2/src/main/res/layout/temperature_widget.xml -->

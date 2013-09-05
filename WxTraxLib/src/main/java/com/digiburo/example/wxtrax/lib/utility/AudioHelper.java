@@ -13,7 +13,7 @@ import com.digiburo.example.wxtrax.lib.R;
  */
 public class AudioHelper implements AudioManager.OnAudioFocusChangeListener {
 
-  public void playStreak(Context context) {
+  public void playStreak(int id, Context context) {
     AudioManager am = (AudioManager) context.getSystemService(Context.AUDIO_SERVICE);
  
     int result = am.requestAudioFocus(this, AudioManager.STREAM_MUSIC, AudioManager.AUDIOFOCUS_GAIN);
@@ -26,15 +26,16 @@ public class AudioHelper implements AudioManager.OnAudioFocusChangeListener {
       LogFacade.debug(LOG_TAG, "audiofocus request granted");
       
       AudioPlayerListener apl = new AudioPlayerListener();
-      
-      MediaPlayer mp = MediaPlayer.create(context, R.raw.streak);
+
+      MediaPlayer mp = MediaPlayer.create(context, id);
+//      MediaPlayer mp = MediaPlayer.create(context, R.raw.streak);
       mp.setOnCompletionListener(apl);
       mp.setOnErrorListener(apl);
       mp.setOnInfoListener(apl);
       mp.setVolume(0.7f, 0.7f);
       mp.setLooping(false);    
       mp.start();
-      
+
       break;
     default:
       LogFacade.debug(LOG_TAG, "unknown focus request response:" + result);

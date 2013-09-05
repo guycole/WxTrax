@@ -63,7 +63,7 @@ public class WxTraxApplication extends Application {
 
     Time timeNow = Utility.timeNow();    
     Time timeAlarm = new Time();
-    timeAlarm.set(timeNow.toMillis(Constants.IGNORE_DST) + delay);
+    timeAlarm.set(timeNow.toMillis(Constants.IGNORE_DST) + (delay * 60 * 1000L));
     
     Intent ii = new Intent(this, AlarmReceiver.class);
     PendingIntent pi = PendingIntent.getBroadcast(this, 0, ii, 0);
