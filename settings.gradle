@@ -1,1 +1,1 @@
-include ':WxTrax2', ':WxTraxLib'
+include ':app', ':libraries:wxtraxlib'
