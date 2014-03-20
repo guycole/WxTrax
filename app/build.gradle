@@ -1,21 +1,35 @@
 // app build.gradle
 
 apply plugin: 'android'
+apply plugin: 'android-test'
 
 android {
-    compileSdkVersion 19
-    buildToolsVersion "19.0.2"
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
 
     defaultConfig {
-        minSdkVersion 13
-        targetSdkVersion 18
-        versionCode 1
-        versionName "1.0"
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode rootProject.ext.versionCode
+        versionName rootProject.ext.versionName
+
+//        testInstrumentationRunner rootProject.ext.testInstrumentationRunner
     }
+
     buildTypes {
         release {
             runProguard false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+
+    packagingOptions {
+        exclude 'LICENSE.txt'
+    }
+
+    sourceSets {
+        instrumentTest {
+            setRoot('src/test')
         }
     }
 }
@@ -23,4 +37,12 @@ android {
 dependencies {
     compile project(':libraries:wxtraxlib')
     compile 'com.google.android.gms:play-services:3.1.36'
+
+    instrumentTestCompile 'junit:junit:4.11'
+    instrumentTestCompile 'org.robolectric:robolectric:2.3-SNAPSHOT'
+    instrumentTestCompile 'com.squareup:fest-android:1.0.+'
+
+    testCompile 'junit:junit:4.11'
+    testCompile 'org.robolectric:robolectric:2.3-SNAPSHOT'
+    testCompile 'com.squareup:fest-android:1.0.+'
 }
