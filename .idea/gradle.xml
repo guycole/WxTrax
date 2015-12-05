@@ -6,16 +6,15 @@
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="gradleHome" value="$USER_HOME$/local/gradle-1.9" />
+        <option name="gradleJvm" value="1.7" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/libraries" />
-            <option value="$PROJECT_DIR$/libraries/wxtraxlib" />
+            <option value="$PROJECT_DIR$/WxTraxApp" />
+            <option value="$PROJECT_DIR$/WxTraxLib" />
           </set>
         </option>
       </GradleProjectSettings>
     </option>
   </component>
 </project>
-

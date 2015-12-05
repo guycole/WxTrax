@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ProjectModuleManager">
-    <modules />
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/WxTrax.iml" filepath="$PROJECT_DIR$/WxTrax.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WxTraxApp/WxTraxApp.iml" filepath="$PROJECT_DIR$/WxTraxApp/WxTraxApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WxTraxLib/WxTraxLib.iml" filepath="$PROJECT_DIR$/WxTraxLib/WxTraxLib.iml" />
+    </modules>
   </component>
 </project>
