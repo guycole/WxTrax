@@ -9,7 +9,7 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import net.braingang.wxtraxlib.Constant;
+import com.digiburo.wxtraxlib.Constant;
 
 public class MainActivity extends AppCompatActivity {
     int truz = Constant.SQL_TRUE;

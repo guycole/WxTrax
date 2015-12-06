@@ -1,4 +1,4 @@
-package net.braingang.wxtraxlib;
+package com.digiburo.wxtraxlib;
 
 /**
  * application constant
@@ -12,10 +12,10 @@ public class Constant {
     public static final String INTENT_KEY_CALLSIGN = "callsign";
 
     //
-    public static final String AUTHORITY = "com.facebook.wxtrax.db.DataBaseProvider";
+    public static final String AUTHORITY = "com.digiburo.wxtrax.db.DataBaseProvider";
 
     //
-    public static final String FRESH_OBSERVATION = "com.facebook.wxtrax.fresh_observation";
+    public static final String FRESH_OBSERVATION = "com.digiburo.wxtrax.fresh_observation";
 
     // national weather service URL
     public static final String NWS_BASE_URL = "http://www.weather.gov";
