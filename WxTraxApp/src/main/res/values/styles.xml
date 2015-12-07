@@ -1,20 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+
 <resources>
+  <!--
+    Base application theme, dependent on API level.
+    This theme is replaced by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+  -->
+  <style name="AppBaseTheme" parent="android:Theme.Light">
+    <!--
+      Theme customizations available in newer API levels can go in res/values-vXX/styles.xml,
+      while customizations related to backward-compatibility can go here.
+    -->
+  </style>
 
-    <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
-    </style>
+  <!-- Application theme. -->
+  <style name="AppTheme" parent="AppBaseTheme">
+    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+  </style>
 
-    <style name="AppTheme.NoActionBar">
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
-    </style>
+  <!-- content label parent -->
+  <style name="ContentView01">
+    <item name="android:textColor">#0000ff</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:typeface">sans</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:layout_width">fill_parent</item>
+  </style>
 
-    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+  <!-- content label for phones -->
+  <style name="ContentView01.Default">
+    <item name="android:textSize">18sp</item>
+  </style>
 
-    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+  <!-- content label for tablets  -->
+  <style name="ContentView01.Large">
+    <item name="android:textSize">45sp</item>
+  </style>
 
+  <!-- field label parent -->
+  <style name="LabelView01">
+    <item name="android:textColor">#ff0000</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:typeface">sans</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:layout_width">fill_parent</item>
+  </style>
+
+  <!-- field label for phones -->
+  <style name="LabelView01.Default">
+    <item name="android:textSize">22sp</item>
+  </style>
+
+  <!-- field label for tablets  -->
+  <style name="LabelView01.Large">
+    <item name="android:textSize">45sp</item>
+  </style>
+
+  <!-- scrolling weather row parent -->
+  <style name="WeatherRow01">
+    <item name="android:textStyle">bold</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:layout_width">fill_parent</item>
+  </style>
+
+  <!-- scrolling weather row for phones -->
+  <style name="WeatherRow01.Default">
+    <item name="android:textSize">16sp</item>
+  </style>
+
+  <!-- scrolling weather row for tablets  -->
+  <style name="WeatherRow01.Large">
+    <item name="android:textSize">45sp</item>
+  </style>
+
+  <!-- appwidget banner parent -->
+  <style name="WidgetBanner01">
+    <item name="android:gravity">center</item>
+    <item name="android:textColor">#fed600</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:layout_width">fill_parent</item>
+  </style>
+
+  <!-- appwidget banner for phones -->
+  <style name="WidgetBanner01.Default">
+    <item name="android:layout_marginTop">10px</item>
+    <item name="android:textSize">18sp</item>
+  </style>
+
+  <!-- appwidget content parent -->
+  <style name="WidgetContent01">
+    <item name="android:gravity">center</item>
+    <item name="android:textColor">#fed600</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:layout_width">fill_parent</item>
+  </style>
+
+  <!-- appwidget content for phones -->
+  <style name="WidgetContent01.Default">
+    <item name="android:layout_marginTop">10px</item>
+    <item name="android:textSize">20sp</item>
+  </style>
+
+  <!-- parent theme -->
+  <style name="BaseTheme" parent="android:Theme"/>
+
+  <!-- middle activity theme -->
+  <style name="WxTheme" parent="BaseTheme"/>
 </resources>
