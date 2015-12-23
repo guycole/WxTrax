@@ -13,8 +13,12 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.CursorAdapter;
 
+import com.digiburo.wxtrax.R;
+import com.digiburo.wxtraxlib.db.DataBaseFacade;
 import com.digiburo.wxtraxlib.db.DataBaseTable;
 import com.digiburo.wxtraxlib.db.ObservationTable;
+import com.digiburo.wxtraxlib.db.StationModel;
+import com.digiburo.wxtraxlib.db.StationTable;
 
 /**
  * Display scrolling list of weather observations

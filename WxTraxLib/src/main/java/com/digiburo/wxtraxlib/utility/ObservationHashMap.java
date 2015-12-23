@@ -8,9 +8,5 @@ import java.util.HashMap;
  * @author gsc
  */
 public class ObservationHashMap extends HashMap<String, String> {
-
-  /**
-   * eclipse generated
-   */
-  private static final long serialVersionUID = 8266166285295840737L;
+    //empty
 }

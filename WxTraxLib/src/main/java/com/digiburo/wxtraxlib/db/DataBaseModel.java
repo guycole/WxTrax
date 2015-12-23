@@ -11,36 +11,36 @@ import android.net.Uri;
  */
 public interface DataBaseModel {
 
-  /**
-   * set reasonable default values
-   */
-  void setDefault();
+    /**
+     * set reasonable default values
+     */
+    void setDefault();
 
-  /**
-   *
-   * @return load content from model
-   */
-  ContentValues toContentValues();
+    /**
+     *
+     * @return load content from model
+     */
+    ContentValues toContentValues();
 
-  /**
-   *
-   * @param cursor convert from cursor to model
-   */
-  void fromCursor(Cursor cursor);
+    /**
+     *
+     * @param cursor convert from cursor to model
+     */
+    void fromCursor(Cursor cursor);
 
-  /**
-   *
-   * @return associated table name
-   */
-  String getTableName();
+    /**
+     *
+     * @return associated table name
+     */
+    String getTableName();
 
-  /**
-   *
-   * @return associated table URI
-   */
-  Uri getTableUri();
+    /**
+     *
+     * @return associated table URI
+     */
+    Uri getTableUri();
 
-  // for BaseColumns
-  Long getId();
-  void setId(Long id);
+    // for BaseColumns
+    Long getId();
+    void setId(Long id);
 }

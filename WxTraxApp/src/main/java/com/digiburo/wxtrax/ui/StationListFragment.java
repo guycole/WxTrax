@@ -19,8 +19,10 @@ import android.widget.AdapterView.AdapterContextMenuInfo;
 import android.widget.CursorAdapter;
 import android.widget.ListView;
 
+import com.digiburo.wxtrax.R;
 import com.digiburo.wxtraxlib.db.DataBaseTable;
 import com.digiburo.wxtraxlib.db.StationTable;
+import com.digiburo.wxtraxlib.utility.UserPreferenceHelper;
 
 
 /**
@@ -77,7 +79,7 @@ public class StationListFragment extends ListFragment implements LoaderManager.L
    */
   @Override
   public void onListItemClick(ListView listView, View view, int position, long id) {
-    stationListener.onStationSelect(id, TabHelper.TAG_STATION_LIST);
+    stationListener.stationSelect(id, TabHelper.TAG_STATION_LIST);
   }
 
   /**

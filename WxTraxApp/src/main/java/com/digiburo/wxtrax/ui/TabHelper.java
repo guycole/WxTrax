@@ -94,6 +94,7 @@ public class TabHelper implements ActionBar.TabListener, FragmentManager.OnBackS
 
     ActionBar actionBar = mainActivity.getActionBar();
 
+    /*
     if (backStackCount == 0) {
       // restore tabs
       ignoreMe = true;
@@ -103,6 +104,7 @@ public class TabHelper implements ActionBar.TabListener, FragmentManager.OnBackS
       // hide tabs
       actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_STANDARD);
     }
+    */
   }
 
   /**

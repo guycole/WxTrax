@@ -8,6 +8,13 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.digiburo.wxtrax.R;
+import com.digiburo.wxtraxlib.db.DataBaseFacade;
+import com.digiburo.wxtraxlib.db.ObservationModel;
+import com.digiburo.wxtraxlib.db.StationModel;
+import com.digiburo.wxtraxlib.db.StationTable;
+import com.digiburo.wxtraxlib.utility.UserPreferenceHelper;
+
 /**
  * Display "favorite" station details
  */

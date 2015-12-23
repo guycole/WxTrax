@@ -9,7 +9,7 @@ public interface StationListener {
    * Display observation list fragment
    * @param rowId within StationTable
    */
-  void onStationSelect(Long rowId, String tabTag);
+  void stationSelect(Long rowId, String tabTag);
 
   /**
    * display delete dialog
@@ -20,10 +20,10 @@ public interface StationListener {
   /**
    * perform delete
    */
-  void onStationDeleteYes();
+  void stationDeleteYes();
 
   /**
    * cancel delete
    */
-  void onStationDeleteNo();
+  void stationDeleteNo();
 }

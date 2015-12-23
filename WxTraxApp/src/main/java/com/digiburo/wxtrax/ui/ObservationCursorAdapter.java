@@ -8,6 +8,9 @@ import android.view.ViewGroup;
 import android.widget.CursorAdapter;
 import android.widget.TextView;
 
+import com.digiburo.wxtrax.R;
+import com.digiburo.wxtraxlib.db.ObservationTable;
+
 /**
  * cursor adapter for StationListFragment
  *

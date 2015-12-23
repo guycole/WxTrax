@@ -8,6 +8,8 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 
+import com.digiburo.wxtrax.R;
+
 /**
  * user input of new station to monitor
  */
@@ -31,6 +33,7 @@ public class AddStationDialogFragment extends DialogFragment {
     View view = layoutInflater.inflate(R.layout.dialog_new_station, container, false);
     final EditText editText = (EditText) view.findViewById(R.id.edit_station01);
 
+    /*
     Button buttonSave = (Button) view.findViewById(R.id.button_save01);
     buttonSave.setOnClickListener(new View.OnClickListener() {
       @Override
@@ -48,6 +51,7 @@ public class AddStationDialogFragment extends DialogFragment {
         dismiss();
       }
     });
+    */
 
     return(view);
   }

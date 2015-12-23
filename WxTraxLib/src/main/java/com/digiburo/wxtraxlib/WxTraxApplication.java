@@ -1,7 +1,6 @@
 package com.digiburo.wxtraxlib;
 
 import android.app.Application;
-import android.content.Intent;
 import android.util.Log;
 
 import com.digiburo.wxtraxlib.service.CollectionService;
@@ -24,7 +23,7 @@ public class WxTraxApplication extends Application {
             uph.writeDefaults(this);
         }
 
-        startService(new Intent(this, CollectionService.class));
+        CollectionService.startActionAll(this);
     }
 
     @Override

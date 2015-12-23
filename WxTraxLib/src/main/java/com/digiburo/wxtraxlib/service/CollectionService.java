@@ -1,91 +1,124 @@
 package com.digiburo.wxtraxlib.service;
 
+import android.app.AlarmManager;
 import android.app.IntentService;
+import android.app.PendingIntent;
 import android.content.Intent;
 import android.content.Context;
+import android.text.format.Time;
+import android.util.Log;
 
-/**
- * An {@link IntentService} subclass for handling asynchronous task requests in
- * a service on a separate handler thread.
- * <p/>
- * TODO: Customize class - update intent actions, extra parameters and static
- * helper methods.
- */
+import com.digiburo.wxtraxlib.Constant;
+import com.digiburo.wxtraxlib.db.DataBaseFacade;
+import com.digiburo.wxtraxlib.db.ObservationModel;
+import com.digiburo.wxtraxlib.db.StationModel;
+import com.digiburo.wxtraxlib.utility.UserPreferenceHelper;
+import com.digiburo.wxtraxlib.utility.Utility;
+import com.digiburo.wxtraxlib.utility.WxXmlCollection;
+
+import java.util.ArrayList;
+
 public class CollectionService extends IntentService {
-    // TODO: Rename actions, choose action names that describe tasks that this
-    // IntentService can perform, e.g. ACTION_FETCH_NEW_ITEMS
-    private static final String ACTION_FOO = "net.braingang.wxtraxlib.service.action.FOO";
-    private static final String ACTION_BAZ = "net.braingang.wxtraxlib.service.action.BAZ";
+    public final String LOG_TAG = getClass().getName();
 
-    // TODO: Rename parameters
-    private static final String EXTRA_PARAM1 = "net.braingang.wxtraxlib.service.extra.PARAM1";
-    private static final String EXTRA_PARAM2 = "net.braingang.wxtraxlib.service.extra.PARAM2";
+    private static final String ACTION_ALL = "com.digiburo.wxtraxlib.service.action.all";
+    private static final String ACTION_SINGLE = "com.digiburo.wxtraxlib.service.action.single";
+
+    private static final String EXTRA_STATION = "com.digiburo.wxtraxlib.service.extra.station";
 
     public CollectionService() {
         super("CollectionService");
     }
 
-    /**
-     * Starts this service to perform action Foo with the given parameters. If
-     * the service is already performing a task this action will be queued.
-     *
-     * @see IntentService
-     */
-    // TODO: Customize helper method
-    public static void startActionFoo(Context context, String param1, String param2) {
+    public static void startActionAll(Context context) {
         Intent intent = new Intent(context, CollectionService.class);
-        intent.setAction(ACTION_FOO);
-        intent.putExtra(EXTRA_PARAM1, param1);
-        intent.putExtra(EXTRA_PARAM2, param2);
+        intent.setAction(ACTION_ALL);
         context.startService(intent);
     }
 
-    /**
-     * Starts this service to perform action Baz with the given parameters. If
-     * the service is already performing a task this action will be queued.
-     *
-     * @see IntentService
-     */
-    // TODO: Customize helper method
-    public static void startActionBaz(Context context, String param1, String param2) {
+    public static void startActionSingle(Context context, String target) {
         Intent intent = new Intent(context, CollectionService.class);
-        intent.setAction(ACTION_BAZ);
-        intent.putExtra(EXTRA_PARAM1, param1);
-        intent.putExtra(EXTRA_PARAM2, param2);
+        intent.setAction(ACTION_SINGLE);
+        intent.putExtra(EXTRA_STATION, target);
         context.startService(intent);
     }
 
     @Override
     protected void onHandleIntent(Intent intent) {
-        if (intent != null) {
-            final String action = intent.getAction();
-            if (ACTION_FOO.equals(action)) {
-                final String param1 = intent.getStringExtra(EXTRA_PARAM1);
-                final String param2 = intent.getStringExtra(EXTRA_PARAM2);
-                handleActionFoo(param1, param2);
-            } else if (ACTION_BAZ.equals(action)) {
-                final String param1 = intent.getStringExtra(EXTRA_PARAM1);
-                final String param2 = intent.getStringExtra(EXTRA_PARAM2);
-                handleActionBaz(param1, param2);
-            }
+        if (intent == null) {
+            Log.d(LOG_TAG, "skipping null intent");
+            return;
+        }
+
+        final String action = intent.getAction();
+        if (ACTION_ALL.equals(action)) {
+            collectAllStations();
+        } else if (ACTION_SINGLE.equals(action)) {
+            final String target = intent.getStringExtra(EXTRA_STATION);
+            collectSingleStation(target);
         }
     }
 
-    /**
-     * Handle action Foo in the provided background thread with the provided
-     * parameters.
-     */
-    private void handleActionFoo(String param1, String param2) {
-        // TODO: Handle action Foo
-        throw new UnsupportedOperationException("Not yet implemented");
+    private void collectAllStations() {
+        DataBaseFacade dbf = new DataBaseFacade(getBaseContext());
+
+        ArrayList<String> stations = dbf.getActiveStations();
+        StationModel favoriteStation = dbf.getFavoriteStation();
+
+        collection(stations, favoriteStation, dbf);
+    }
+
+    private void collectSingleStation(String target) {
+        DataBaseFacade dbf = new DataBaseFacade(getBaseContext());
+
+        ArrayList<String> stations = new ArrayList<String>();
+        stations.add(target);
+
+        collection(stations, null, dbf);
     }
 
     /**
-     * Handle action Baz in the provided background thread with the provided
-     * parameters.
+     * collect each station and save results
+     * if favorite station, generate broadcast intent
+     * @param stations
+     * @param favoriteStation
+     * @param dbf
      */
-    private void handleActionBaz(String param1, String param2) {
-        // TODO: Handle action Baz
-        throw new UnsupportedOperationException("Not yet implemented");
+    private void collection(ArrayList<String> stations, StationModel favoriteStation, DataBaseFacade dbf) {
+        try {
+            WxXmlCollection wxc = new WxXmlCollection();
+
+            for (String station:stations) {
+                ObservationModel model = wxc.performCollection(getBaseContext(), station);
+                if (model != null) {
+                    dbf.newStation(model);
+                    dbf.newObservation(model);
+
+                    if ((favoriteStation != null) && (favoriteStation.getIdentifier().equals(model.getIdentifier()))) {
+                        Intent observationIntent = new Intent(Constant.FRESH_OBSERVATION);
+                        sendBroadcast(observationIntent);
+                    }
+                }
+            }
+        } catch(Exception exception) {
+            exception.printStackTrace();
+        }
+    }
+
+    private void setNextAlarm() {
+        UserPreferenceHelper uph = new UserPreferenceHelper();
+        int delay = uph.getPollInterval(this);
+        Log.d(LOG_TAG, "current delay:" + delay);
+
+        Time timeNow = Utility.timeNow();
+        Time timeAlarm = new Time();
+        timeAlarm.set(timeNow.toMillis(Constant.IGNORE_DST) + (delay * 60 * 1000L));
+        Log.d(LOG_TAG, "next alarm:" + timeAlarm);
+
+        Intent ii = new Intent(this, CollectionService.class);
+        PendingIntent pi = PendingIntent.getService(this, 0, ii, 0);
+
+        AlarmManager am = (AlarmManager) getSystemService(Context.ALARM_SERVICE);
+        am.set(AlarmManager.RTC, timeAlarm.toMillis(Constant.IGNORE_DST), pi);
     }
 }

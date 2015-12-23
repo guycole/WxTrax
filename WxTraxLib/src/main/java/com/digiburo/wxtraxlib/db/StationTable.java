@@ -9,7 +9,7 @@ import java.util.HashMap;
 import java.util.Set;
 
 /**
- * Created by guycole on 9/11/14.
+ * station table definitions
  */
 public class StationTable implements DataBaseTable {
 
